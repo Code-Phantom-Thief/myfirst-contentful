@@ -2,7 +2,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const RecipeCard = ({ recipe }) => {
-	console.log(recipe);
 	const { title, slug, cookingTime, thumbnail } =
 		recipe.fields;
 	return (
